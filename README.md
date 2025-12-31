@@ -1,2 +1,2 @@
 # Ground_Control
-Landing
+Landing site for Ground Control BJJ and MMA
