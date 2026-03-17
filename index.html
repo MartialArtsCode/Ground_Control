@@ -6,6 +6,7 @@
         <title>Ground Control Brazilian Jiu Jitsu & MMA</title>
         
         <style>
+            
             /* ================= VARIABLES ================= */
             :root{
                 --bg:#ffffff;
@@ -14,12 +15,14 @@
                 --accent2:#d21a1a;
                 --text:#0b2540;
             }
+            
             /* ================= RESET ================= */
             *{
                 box-sizing:border-box;
                 margin:0;
                 padding:0;
             }
+            
             /* ================= BODY ================= */
             body{
                 font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;
@@ -56,6 +59,7 @@
                 border-radius:30px;
                 max-width:1000px;
             }
+            
             /* ================= CONTENT SECTIONS ================= */
             .section{
                 background:linear-gradient(135deg, gray 0%, white 100%);
@@ -76,6 +80,7 @@
             .section p{
                 font-size:clamp(1rem, 2.5vw, 1.1rem);
             }
+            
             /* ================= BUTTONS ================= */
             .buttons{
                 display:flex;
@@ -99,6 +104,7 @@
                 background:#333;
                 transform:scale(1.05);
             }
+           
             /* ================= MOBILE ================= */
             @media (max-width:768px){
                 .hero{
@@ -115,26 +121,34 @@
     </head>
     
     <body>
-
-    <!-- HERO -->
+           <!-- HERO -->
     <div class="header">
+        
         <header class="hero">
+            
             <h1>Ground Control Brazilian Jiu Jitsu & MMA</h1>
             <!-- ABOUT -->
-            <section class="section">
+            <section class="card">
+                <card content="foot-note">
                 <h2>Train With Purpose</h2>
-                <h4>World-class Brazilian Jiu Jitsu and MMA training for all levels.
-                    <br>Build discipline, confidence, and self-defense skills.</h4>
+                <p>World-class Brazilian Jiu Jitsu and MMA training for all levels.
+                    <br>Build discipline, confidence, and self-defense skills.</p>
+                </card>
+                
             </section>
-            <!-- PROGRAMS -->
+            
         </header>
+        
     </div>
+            
+            <!-- PROGRAMS -->
     <div class="section">
         <section class="section">
             <h2>Programs Offered</h2>
             <h4>• Brazilian Jiu • MMA<br>• No-Gi • Kids Classes</h4>
         </section>
-        <!-- CTA -->
+       
+            <!-- CTA -->
         <div class="buttons">
             <a href="sms:+13369978058?&body=Hi%20I%20would%20like%20to%20book%20a%20free%20trial%20class." class="button">📅 Book a Free Trial</a>
             <a href="https://maps.app.goo.gl/HrUHqPNEreCB46RG9" target="_blank" class="button">📍 Visit Our Gym</a>
